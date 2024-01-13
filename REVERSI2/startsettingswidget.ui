@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartSettingsWidget</class>
+ <widget class="QWidget" name="StartSettingsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QPushButton" name="HumanVSHumanButton">
+     <property name="font">
+      <font>
+       <family>华文彩云</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>人人对战</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="HumanVSAiButton">
+     <property name="font">
+      <font>
+       <family>华文彩云</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>人机先手</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="AiVSHumanButton">
+     <property name="font">
+      <font>
+       <family>华文彩云</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>人机后手</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
