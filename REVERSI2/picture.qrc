@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>image/BlackPiece.png</file>
-        <file>image/NoPiece.png</file>
-        <file>image/WhitePiece.png</file>
-        <file>save.txt</file>
-    </qresource>
-</RCC>
